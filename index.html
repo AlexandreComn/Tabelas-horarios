@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus horários</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Horários mês de setembro 2023</h1>
+        <h1>Horários de atividades</h1>
     </header>
 
     <main>
-        <table id="tabela" border="2" cellspacing="1" cellpadding="10" align="center">
+
+        <h2>Horários fixos</h2>
+
+        <table id="tabela">
             <tr>
                 <th>Horários</th>
                 <th>Domingo</th>
@@ -26,37 +31,88 @@
             </tr>
 
             <tr>
-                <td>7:50</td>
-                <td>X</td>
+                <td class="hora">7:50</td>
+                <td class="livre">X</td>
                 <td>Robótica</td>
-                <td>X</td>
+                <td class="livre">X</td>
                 <td>Vôlei</td>
-                <td>X</td>
+                <td class="livre">X</td>
                 <td>Vôlei</td>
-                <td>X</td>
+                <td class="livre">X</td>
             </tr>
 
             <tr>
-                <td>8:30</td>
-                <td>Desbravadores</td>
+                <td class="hora">8:30</td>
+                <td>Dbv</td>
                 <td>Robótica</td>
-                <td>X</td>
+                <td class="livre">X</td>
                 <td>Vôlei</td>
-                <td>X</td>
+                <td class="livre">X</td>
                 <td>Vôlei</td>
-                <td>X</td>
+                <td class="livre">X</td>
             </tr>
 
             <tr>
-                <td>9:00</td>
-                <td>Desbravadores</td>
+                <td class="hora">9:00</td>
+                <td>Dbv</td>
                 <td>Robótica</td>
+                <td class="livre">X</td>
+                <td>Vôlei</td>
+                <td class="livre">X</td>
+                <td>Volêi</td>
+                <td>Igreja</td>
             </tr>
 
+            <tr>
+                <td class="hora">13:00</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+                <td>Aluno Monitor</td>
+                <td class="livre">X</td>
+            </tr>
 
+            <tr>
+                <td class="hora">14:00</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+                <td>Aula de Violão</td>
+                <td class="livre">X</td>
+                <td class="livre">X</td>
+            </tr>
 
+            <tr>
+                <td class="hora">18:50</td>
+                <td class="livre">X</td>
+                <td>Aula</td>
+                <td>Aula</td>
+                <td>Aula</td>
+                <td>Aula</td>
+                <td>Aula</td>
+                <td class="livre">X</td>
+            </tr>
         </table>
     </main>
+
+    <div class="quadro-legendas">
+        <div class="legenda">
+            <div class="cor-legenda" style="background-color: rgba(203, 40, 40, 0.898);"></div>
+            <p>Horários Livres</p>
+        </div>
+        <div class="legenda">
+            <div class="cor-legenda" style="background-color: #1b2a41"></div>
+            <p>Horários ocupados</p>
+        </div>
+        <div class="legenda">
+            <div class="cor-legenda" style="background-color: #0c1821;"></div>
+            <p>Horários</p>
+        </div>
+    </div>
+    
 
     <footer></footer>
     
