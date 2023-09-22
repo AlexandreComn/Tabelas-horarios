@@ -48,6 +48,7 @@ main{
     align-items: center;
     justify-content: center;
     max-width: 800px;
+    position: relative;
 }
 
 main > h2{
@@ -57,11 +58,11 @@ main > h2{
 }
 
 main > table{
-    max-width: 100%;
-    width: 50%;
+    
     background-color: var(--cor004);
     border: 2px var(--cor002) solid;
     margin: 0 auto;
+    
 }
 
 main td, th{
