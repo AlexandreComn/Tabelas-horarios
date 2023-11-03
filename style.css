@@ -25,7 +25,6 @@
 
 body{
     background-color: var(--cor001);
-    overflow-x: hidden;
 }
 
 header{
@@ -60,22 +59,23 @@ main > h2{
     font-size: 30px;
 }
 
-main table{
+table{
     
     background-color: var(--cor004);
     border: 2px var(--cor002) solid;
     margin: auto;
+    border-collapse: ]collapse;
     
 }
 
-main td, th{
+td, th{
     padding: 10px;
     text-align: center;
     border: 2px  var(--cor002)solid;
     border-width: 3px;
 }
 
-main th{
+th{
     font-family: var(--font002);
     letter-spacing: 3px;
     font-size: 20px;
